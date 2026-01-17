@@ -4,7 +4,7 @@ def check_multiple(number):
 def check_password(input_string):
    if input_string == "mango":
     return ("access granted")
-   elif input_string != secret_word: 
+   elif input_string != "mango": 
     return ("access denied")
 
 def calculate_federal_tax(salary):
